@@ -68,8 +68,33 @@ button {
     transition: background-color 0.3s ease;
 }
 @media (max-width: 768px) {
-   
+    a {
+        margin: 20px auto;
+        bottom: 50px;
+        left: 10px;
+        width: calc(100% - 20px);
+    }
+
+    .form-container {
+        width: calc(100% - 40px);
+        bottom: 50px;
+        left: 20px;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    input[type="text"] {
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 16px;
+    }
 }
+
 
 
 button:hover {
